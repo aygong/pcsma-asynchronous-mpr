@@ -1,4 +1,4 @@
-# Dynamic Optimization of Random Access in Deadline-Constrained Broadcasting
+# Generalized $p$-Persistent CSMA for Asynchronous Multiple-Packet Reception
 
 Yijin Zhang, [Aoyu Gong](https://aygong.com/), [Yuan-Hsun Lo](https://sites.google.com/view/yuanhsunlo/home), [Jun Li](http://www.deepiiotlab.com/), Feng Shu, [Wing Shing Wong](http://www.ie.cuhk.edu.hk/people/wing2.shtml)
 
