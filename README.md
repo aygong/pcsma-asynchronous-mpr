@@ -52,7 +52,7 @@ If you find the code helpful, please consider citing our paper:
 
 ```
 @article{zhang2019generalized,
-  title={Generalized $p$-persistent {CSMA} for asynchronous multiple-packet reception},
+  title={{Generalized $p$-persistent CSMA for asynchronous multiple-packet reception}},
   author={Zhang, Yijin and Gong, Aoyu and Lo, Yuan-Hsun and Li, Jun and Shu, Feng and Wong, Wing Shing},
   journal={IEEE Trans. Commun.},
   volume={67},
