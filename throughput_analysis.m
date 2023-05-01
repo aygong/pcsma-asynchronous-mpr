@@ -94,8 +94,8 @@ for n = 0:gamma-1
         g = zeros(1, N);
         g(n+a) = 1;
         for lambda = 1:1e+6
-            p_length = lambda * p_end * (1 - p_end)^(lambda - 1);
-            rna(a+1) = rna(a+1) + p_length * sum(g(1:gamma));
+            p_length = p_end * (1 - p_end)^(lambda - 1);
+            rna(a+1) = rna(a+1) + lambda * p_length * sum(g(1:gamma));
             if p_length < 1e-10
                 break
             end
