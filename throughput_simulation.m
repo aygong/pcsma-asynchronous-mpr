@@ -51,10 +51,8 @@ parfor SI = 1:simu_indept
         end
         
         % Check unsuccessful transmissions
-        if sum(ongoing) > gamma || rand > channel(sum(ongoing)+1)
-            if sum(ongoing) > 0
-                status = zeros(1, N);
-            end
+        if sum(ongoing) > 0 && rand > channel(sum(ongoing)+1)
+            status = zeros(1, N);
         end
     end
     

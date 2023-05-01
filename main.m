@@ -15,9 +15,9 @@ global simu_switch simu_indept simu_slots
 
 % Set the network parameters
 N = 10;
-gamma = 4;
-c = 4;
-Lambda = 10;
+gamma = 5;
+c = 5;
+Lambda = 100;
 
 % Set the iteration parameters
 epsilon = 1e-10;
