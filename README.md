@@ -2,16 +2,17 @@
 
 Yijin Zhang, [Aoyu Gong](https://aygong.com/), [Yuan-Hsun Lo](https://sites.google.com/view/yuanhsunlo/home), [Jun Li](http://www.deepiiotlab.com/), Feng Shu, [Wing Shing Wong](http://www.ie.cuhk.edu.hk/people/wing2.shtml)
 
-[`IEEE`](https://ieeexplore.ieee.org/document/8776634) | [`Technical Report`](https://aygong.com/docu/pCSMAtr.pdf) | [`BibTeX`](#Citation)
+[`IEEE`](https://ieeexplore.ieee.org/document/8776634) | [`PDF`](https://aygong.com/docu/pCSMAtr.pdf) | [`BibTeX`](#Citation)
 
 <div align="center">
 <p>
-<img src="assets/protocol.jpg" width="750"/>
+<img src="assets/protocol.jpg" width="700"/>
 </p>
 </div>
 <table>
       <tr><td><em>Figure: An example of the working procedure of the generalized p-persistent CSMA for the case of N = 3 and c = γ = 2.</em></td></tr>
 </table>
+
 
 This paper considers a multiple-access system with multiple-packet reception (MPR) capability $γ$, i.e., a packet can be successfully received as long as it overlaps with $γ − 1$ or fewer other packets at any instant during its lifetime. To efficiently utilize the MPR capability, this paper generalizes $p$-persistent carrier-sense multiple access (CSMA) to consider that a user with carrier sensing capability $c$ adopts the transmission probability $p_n$ if this user has sensed $n$ ongoing transmissions for $n = 0, 1, . . . , c − 1$. This paper aims to model the characteristics of such CSMA and to design transmission probabilities for achieving maximum saturation throughput. To this end, we first formulate such CSMA as a parameterized Markov decision process (MDP) and use the long-run average performance to evaluate the saturation throughput. Second, by observing that the exact values of optimal transmission probabilities are in general infeasible to find, we modify this MDP to establish an upper bound on the maximum throughput, and modify this MDP again to propose a heuristic design with near-optimal performance. Simulations with respect to a wide range of configurations are provided to validate our study. The throughput performance under more general models and the robustness of our design are also investigated.
 
