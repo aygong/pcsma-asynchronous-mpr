@@ -25,7 +25,7 @@ for n1 = 0:N
             % If a silent user detects n <= c - 1 ongoing transmissions
             % at the beginning of a slot, this user will begin
             % a transmission with probability 0 <= p_n < 1
-            for a = max(0, n2 - n1):(N - n1)
+            for a = max(0, n2-n1):N-n1
                 mu = nchoosek(N - n1, a) * p(n1+1)^a * (1 - p(n1+1))^(N - n1 - a);
                 beta(n1+1, n2+1) = beta(n1+1, n2+1) ...
                     + mu * nchoosek(n1 + a, n1 + a - n2) * p_end^(n1 + a - n2) * (1 - p_end)^n2;
