@@ -114,7 +114,7 @@ for k = 1:max_iter
         % Find the feasible extremums of the objective function
         solutions = vpasolve(derivative);
         solutions = solutions(imag(solutions) == 0);
-        solutions = solutions(and(0 <= solutions, solutions < 1));
+        solutions = solutions(and(0 < solutions, solutions < 1));
         % Add the endpoints of the interval [0, 1]
         solutions = vertcat(solutions, [0; 1]);
         % Update the new parameter
